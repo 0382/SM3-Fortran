@@ -1,0 +1,5 @@
+name = "GmSSL"
+version = "3.0"
+license = "类BSD"
+description = "SM3 Hash"
+keywords = ["SM3", "Hash"]
