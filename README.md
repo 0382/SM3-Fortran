@@ -21,7 +21,7 @@ the introduction of `SM3-Fortran` has the following implications:
 
 ## Dependencies
 
-- [Fortran-lang/fpm][3] >= 0.6.0: for building packages and package distribution;
+- [Fortran-lang/fpm][3] >= 0.7.0: for building packages and package distribution;
 - [GNU/GCC][5] >= 9.4.0: for compiling C, Fortran code;
 
 [5]: https://gcc.gnu.org/

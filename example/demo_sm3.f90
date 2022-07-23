@@ -12,6 +12,7 @@ program main
     integer(c_signed_char) :: msg(3) ! 'abc'
     character(3) :: str = 'abc'
 
+    print '(a)', " **** SM3 demo: "
     ! --------------------------- 字节 (bytes) ----------------------- !
     msg = [97, 98, 99]
     call SM3(msg, 3_c_size_t, dgst)
