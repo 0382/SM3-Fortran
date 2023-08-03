@@ -4,12 +4,12 @@
 !> SM3/MD5 Hash Algorithm / GmSSL SM3 Binding <br>
 !> Reference: http://www.oscca.gov.cn/sca/xxgk/2010-12/17/1002389/files/302a3ada057c4a73830536d03e683110.pdf <br>
 !> SM3/MD5 哈希算法 / GmSSL SM3/MD5 杂凑算法接口 <br>
-module SM3_m
+module SM3_module
 
     use, intrinsic :: iso_c_binding, only: c_signed_char, c_size_t
     implicit none
-    private
 
+    private
     public :: SM3, MD5
 
     interface
@@ -41,4 +41,4 @@ module SM3_m
 
     end interface
 
-end module SM3_m
+end module SM3_module

@@ -41,7 +41,7 @@ fpm build --profile release --flag "-DSM3_SSE3"     # 启动 SSE3 优化
 
 ```toml
 [dependencies]
-SM3-Fortran = { git = "https://gitee.com/fortran-stack/SM3-Fortran" }
+sm3-fortran = { git = "https://gitee.com/fortran-stack/sm3-fortran" }
 ```
 
 学习 SM3 算法参考[国家标准][6]和 `SM3-Fortran` 使用请参考[示例][7]。

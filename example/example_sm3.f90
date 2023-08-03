@@ -5,7 +5,7 @@
 !> 示例提供多种访问 SM3 接口的数据重塑方式
 program main
 
-    use SM3_m, only: SM3
+    use SM3_module, only: SM3
     use, intrinsic :: iso_c_binding, only: c_signed_char, c_size_t
     implicit none
     integer(c_signed_char) :: dgst(32)

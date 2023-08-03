@@ -1,6 +1,6 @@
 program main
 
-    use SM3_m, only: MD5
+    use SM3_module, only: MD5
     use, intrinsic :: iso_c_binding, only: c_signed_char, c_size_t
     implicit none
     integer(c_signed_char) :: msg(3)
