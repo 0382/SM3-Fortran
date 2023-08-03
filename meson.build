@@ -7,6 +7,7 @@ project(
         'buildtype=debugoptimized',
         'fortran_std=f2008',
         'default_library=both',
+        'c_std=c11',
     ],
 )
 

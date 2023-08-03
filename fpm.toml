@@ -1,8 +1,8 @@
 name = "sm3-fortran"
 version = "1.0.0"
 license = "BSD-3-Clause"
-author = "左志华"
-maintainer = "左志华(zuo.zhihua@qq.com)"
+author = "ZUO Zhihua"
+maintainer = "zuo.zhihua@qq.com"
 categories = ['SM3 Hash', '杂凑值', '哈希', '信息摘要', 'MD5']
 
 [dependencies]
